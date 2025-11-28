@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "stoobidity",
+	"version": "${version}",
+	"name": "Stoobidity",
+	"description": "This mod was made to help Nate_TheMushroom learn how to mod minecraft... in fabric.",
+	"authors": [
+		"Nate_TheMushroom"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stoobidity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mshm.stoobidity.Stoobidity"
+		],
+		"fabric-datagen": [
+			"net.mshm.stoobidity.StoobidityDataGenerator"
+		],
+        "client": [
+          "net.mshm.stoobidity.StoobidityClient"
+        ]
+	},
+	"mixins": [
+		"stoobidity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
