@@ -2,6 +2,8 @@ package net.mshm.stoobidity;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mshm.stoobidity.block.ModBlocks;
+import net.mshm.stoobidity.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class Stoobidity implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+        ModItems.registerModItems();
+        ModBlocks.registerModBlock();
 	}
 }
