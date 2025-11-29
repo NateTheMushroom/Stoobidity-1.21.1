@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stoobidity:petrified_poo_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "stoobidity:petrified_poo"
+  }
+}

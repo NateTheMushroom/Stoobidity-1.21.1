@@ -2,5 +2,10 @@
   "item.stoobidity.petrified_poo": "Petrified Poo",
   "item.stoobidity.poo": "Poo",
 
-  "block.stoobidity.poo_block": "Block of Poo"
+  "block.stoobidity.poo_ore": "Poo Ore",
+  "block.stoobidity.poo_ore_deepslate": "Deepslate Poo Ore",
+  "block.stoobidity.poo_block": "Block of Poo",
+  "block.stoobidity.petrified_poo_block": "Block of Petrified Poo",
+
+  "itemgroup.stoobidity.stoobid_crap": "Stoobid Crap 💩"
 }

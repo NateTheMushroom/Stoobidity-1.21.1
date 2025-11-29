@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "stoobidity:block/petrified_poo_block"
+  }
+}
