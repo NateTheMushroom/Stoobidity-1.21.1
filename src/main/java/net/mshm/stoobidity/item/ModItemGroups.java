@@ -16,9 +16,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.POO))
                     .displayName(Text.translatable("itemgroup.stoobidity.stoobid_crap"))
                     .entries((displayContext, entries) -> {
+                //~~Items~~
                         entries.add(ModItems.POO);
                         entries.add(ModItems.PETRIFIED_POO);
-
+                //~~Blocks~~
                         entries.add(ModBlocks.POO_ORE);
                         entries.add(ModBlocks.POO_ORE_DEEPSLATE);
                         entries.add(ModBlocks.POO_BLOCK);
