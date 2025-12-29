@@ -2,6 +2,7 @@ package net.mshm.stoobidity;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.mshm.stoobidity.block.ModBlocks;
 import net.mshm.stoobidity.item.ModItemGroups;
 import net.mshm.stoobidity.item.ModItems;
@@ -18,5 +19,8 @@ public class Stoobidity implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlock();
+
+        FuelRegistry.INSTANCE
+                .add(ModItems.NOT_A_CROSS, 3000);
 	}
 }

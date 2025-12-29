@@ -10,13 +10,15 @@ import net.mshm.stoobidity.Stoobidity;
 import net.mshm.stoobidity.item.custom.ShizelItem;
 
 public class ModItems {
+//~~ITEMS~~
     public static final Item PETRIFIED_POO = registerItem("petrified_poo", new Item(new Item.Settings()));
     public static final Item POO = registerItem("poo", new Item(new Item.Settings()));
     public static final Item VEIN_SHARD = registerItem("vein_shard", new Item(new Item.Settings()));
-
-//~~CUSTOM ITEMS~~
+    public static final Item NOT_A_CROSS = registerItem("not_a_cross", new Item(new Item.Settings()));
+    //~~Custom Items~~
     public static final Item SHIZEL = registerItem("shizel", new ShizelItem(new Item.Settings().maxDamage(600)));
-//~~            ~~
+    //~~Food Items~~
+    public static final Item HALLS = registerItem("halls", new Item(new Item.Settings().food(ModFoodComponents.HALLS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Stoobidity.MOD_ID, name), item);

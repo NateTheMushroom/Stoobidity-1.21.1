@@ -21,8 +21,11 @@ public class ModItemGroups {
                         entries.add(ModItems.POO);
                         entries.add(ModItems.PETRIFIED_POO);
                         entries.add(ModItems.VEIN_SHARD);
+                        entries.add(ModItems.NOT_A_CROSS);
                     //Custom
                         entries.add(ModItems.SHIZEL);
+                    //Food
+                        entries.add(ModItems.HALLS);
 
                 //~~Blocks~~
                         entries.add(ModBlocks.POO_ORE);
