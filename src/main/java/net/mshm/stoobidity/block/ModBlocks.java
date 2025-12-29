@@ -12,6 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.mshm.stoobidity.Stoobidity;
+import net.mshm.stoobidity.block.custom.SacrificialAltar;
 
 public class ModBlocks {
 
@@ -30,6 +31,9 @@ public class ModBlocks {
     public static final Block PETRIFIED_POO_BLOCK = registerBlock("petrified_poo_block",
             new Block(AbstractBlock.Settings.create().strength(2f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
+    //~~Custom
+    public static final Block SACRIFICIAL_ALTAR = registerBlock("sacrificial_altar",
+            new SacrificialAltar(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
 
 

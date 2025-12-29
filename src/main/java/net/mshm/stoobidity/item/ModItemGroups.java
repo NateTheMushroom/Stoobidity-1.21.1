@@ -20,6 +20,7 @@ public class ModItemGroups {
                     //Normal
                         entries.add(ModItems.POO);
                         entries.add(ModItems.PETRIFIED_POO);
+                        entries.add(ModItems.VEIN_SHARD);
                     //Custom
                         entries.add(ModItems.SHIZEL);
 
@@ -28,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POO_ORE_DEEPSLATE);
                         entries.add(ModBlocks.POO_BLOCK);
                         entries.add(ModBlocks.PETRIFIED_POO_BLOCK);
+                    //Custom
+                        entries.add(ModBlocks.SACRIFICIAL_ALTAR);
                     }).build());
 
     public static void registerItemGroups() {

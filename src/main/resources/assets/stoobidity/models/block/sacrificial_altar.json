@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "stoobidity:block/sacrificial_altar_bottom",
+    "side": "stoobidity:block/sacrificial_altar_side",
+    "top": "stoobidity:block/sacrificial_altar_top"
+  }
+}
