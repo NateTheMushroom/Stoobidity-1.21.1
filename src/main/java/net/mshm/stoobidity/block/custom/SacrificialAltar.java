@@ -16,6 +16,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.mshm.stoobidity.item.ModItems;
+import net.mshm.stoobidity.util.ModTags;
 
 import java.util.List;
 
@@ -34,12 +35,17 @@ public class SacrificialAltar extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getStack().getItem() == ModItems.POO) {
+            //if(itemEntity.getStack().getItem() == ModItems.POO) {
+            if(isValidItem(itemEntity.getStack())) {
                 itemEntity.setStack(new ItemStack(ModItems.VEIN_SHARD, itemEntity.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.SACRIFICABLE_ITEMS);
     }
 
     @Override
