@@ -12,5 +12,11 @@
   "block.stoobidity.petrified_poo_block": "Block of Petrified Poo",
   "block.stoobidity.sacrificial_altar": "Sacrificial Altar",
 
-  "itemgroup.stoobidity.stoobid_crap": "Stoobid Crap 💩"
+  "itemgroup.stoobidity.stoobid_crap": "Stoobid Crap 💩",
+
+  "tooltip.stoobidity.sacrificial_altar.tooltip": "§4Sacrifice the crap you §4§lhate§4 for the veins you §4§lwant!",
+  "tooltip.stoobidity.shizel.shift_down": "Brick-ify brick-able blocks with this.... odd.. thing.....",
+  "tooltip.stoobidity.shizel": "Press §eShift§r for more Information",
+  "tooltip.stoobidity.halls.tooltip": "Great for a sore throat!",
+  "tooltip.stoobidity.not_a_cross.tooltip": "I §lSWEAR§r IT ISN'T!!!"
 }
