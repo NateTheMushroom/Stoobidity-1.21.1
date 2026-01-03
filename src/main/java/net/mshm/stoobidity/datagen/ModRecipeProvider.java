@@ -27,6 +27,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, POO_SMELTABLES, RecipeCategory.MISC, ModItems.POO, 0.25f, 100, "poo");
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.POO, RecipeCategory.DECORATIONS, ModBlocks.POO_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PETRIFIED_POO, RecipeCategory.DECORATIONS, ModBlocks.PETRIFIED_POO_BLOCK);
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.SHIZEL)
