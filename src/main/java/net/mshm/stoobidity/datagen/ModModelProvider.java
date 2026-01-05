@@ -33,13 +33,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.POO_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.POO_TRAPDOOR);
 
-        pooPool.stairs(ModBlocks.PP_STAIRS);
-        pooPool.slab(ModBlocks.PP_SLAB);
-        pooPool.button(ModBlocks.PP_BUTTON);
-        pooPool.pressurePlate(ModBlocks.PP_PRESSURE_PLATE);
-        pooPool.fence(ModBlocks.PP_FENCE);
-        pooPool.fenceGate(ModBlocks.PP_FENCE_GATE);
-        pooPool.wall(ModBlocks.PP_WALL);
+        ppPool.stairs(ModBlocks.PP_STAIRS);
+        ppPool.slab(ModBlocks.PP_SLAB);
+        ppPool.button(ModBlocks.PP_BUTTON);
+        ppPool.pressurePlate(ModBlocks.PP_PRESSURE_PLATE);
+        ppPool.fence(ModBlocks.PP_FENCE);
+        ppPool.fenceGate(ModBlocks.PP_FENCE_GATE);
+        ppPool.wall(ModBlocks.PP_WALL);
         blockStateModelGenerator.registerDoor(ModBlocks.PP_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PP_TRAPDOOR);
     }

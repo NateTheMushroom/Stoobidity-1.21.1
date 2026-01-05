@@ -50,7 +50,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(2f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
         //Non-Block Petrified Blocks
-        public static final Block PP_STAIRS = registerBlock("pp_stairs",
+        public static final Block PP_STAIRS = registerBlock("petrified_poo_stairs",
                 new StairsBlock(ModBlocks.PETRIFIED_POO_BLOCK.getDefaultState(), AbstractBlock.Settings.create().strength(2f).requiresTool()));
         public static final Block PP_SLAB = registerBlock("petrified_poo_slab",
                 new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
