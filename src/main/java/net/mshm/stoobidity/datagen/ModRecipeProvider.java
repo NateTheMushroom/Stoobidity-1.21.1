@@ -6,6 +6,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.mshm.stoobidity.block.ModBlocks;
@@ -39,6 +40,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.POO), conditionsFromItem(ModItems.POO))
                 .offerTo(exporter);
 
+        createStairsRecipe(ModBlocks.POO_STAIRS, Ingredient.ofItems(ModBlocks.POO_BLOCK));
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POO_SLAB, Ingredient.ofItems(ModBlocks.POO_BLOCK));
 
     }
 }

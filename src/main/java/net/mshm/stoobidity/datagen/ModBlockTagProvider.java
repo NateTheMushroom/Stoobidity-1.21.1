@@ -27,5 +27,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.POO_ORE_DEEPSLATE);
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.SACRIFICIAL_ALTAR);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.POO_FENCE)
+                .add(ModBlocks.PP_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.POO_FENCE_GATE)
+                .add(ModBlocks.PP_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.POO_WALL)
+                .add(ModBlocks.PP_WALL);
     }
 }

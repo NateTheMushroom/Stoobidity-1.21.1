@@ -16,12 +16,32 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POO_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PETRIFIED_POO_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool pooPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POO_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool ppPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PETRIFIED_POO_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POO_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POO_ORE_DEEPSLATE);
 
         blockStateModelGenerator.registerSingleton(ModBlocks.SACRIFICIAL_ALTAR, TexturedModel.CUBE_BOTTOM_TOP);
+
+        pooPool.stairs(ModBlocks.POO_STAIRS);
+        pooPool.slab(ModBlocks.POO_SLAB);
+        pooPool.button(ModBlocks.POO_BUTTON);
+        pooPool.pressurePlate(ModBlocks.POO_PRESSURE_PLATE);
+        pooPool.fence(ModBlocks.POO_FENCE);
+        pooPool.fenceGate(ModBlocks.POO_FENCE_GATE);
+        pooPool.wall(ModBlocks.POO_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.POO_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.POO_TRAPDOOR);
+
+        pooPool.stairs(ModBlocks.PP_STAIRS);
+        pooPool.slab(ModBlocks.PP_SLAB);
+        pooPool.button(ModBlocks.PP_BUTTON);
+        pooPool.pressurePlate(ModBlocks.PP_PRESSURE_PLATE);
+        pooPool.fence(ModBlocks.PP_FENCE);
+        pooPool.fenceGate(ModBlocks.PP_FENCE_GATE);
+        pooPool.wall(ModBlocks.PP_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.PP_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PP_TRAPDOOR);
     }
 
     @Override

@@ -31,6 +31,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POO_BLOCK);
         addDrop(ModBlocks.PETRIFIED_POO_BLOCK);
         addDrop(ModBlocks.SACRIFICIAL_ALTAR);
+        addDrop(ModBlocks.POO_STAIRS);
+        addDrop(ModBlocks.POO_SLAB, slabDrops(ModBlocks.POO_SLAB));
+        addDrop(ModBlocks.POO_BUTTON);
+        addDrop(ModBlocks.POO_PRESSURE_PLATE);
+        addDrop(ModBlocks.POO_FENCE);
+        addDrop(ModBlocks.POO_FENCE_GATE);
+        addDrop(ModBlocks.POO_WALL);
+        addDrop(ModBlocks.POO_DOOR, doorDrops(ModBlocks.POO_DOOR));
+        addDrop(ModBlocks.POO_TRAPDOOR);
+        addDrop(ModBlocks.PP_STAIRS);
+        addDrop(ModBlocks.PP_SLAB, slabDrops(ModBlocks.PP_SLAB));
+        addDrop(ModBlocks.PP_BUTTON);
+        addDrop(ModBlocks.PP_PRESSURE_PLATE);
+        addDrop(ModBlocks.PP_FENCE);
+        addDrop(ModBlocks.PP_FENCE_GATE);
+        addDrop(ModBlocks.PP_WALL);
+        addDrop(ModBlocks.PP_DOOR, doorDrops(ModBlocks.PP_DOOR));
+        addDrop(ModBlocks.PP_TRAPDOOR);
 
         addDrop(ModBlocks.POO_ORE, multipleOreDrops(ModBlocks.POO_ORE, ModItems.PETRIFIED_POO, 2, 4));
         addDrop(ModBlocks.POO_ORE_DEEPSLATE, multipleOreDrops(ModBlocks.POO_ORE_DEEPSLATE, ModItems.PETRIFIED_POO, 3, 7));

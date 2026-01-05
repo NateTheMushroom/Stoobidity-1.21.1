@@ -32,6 +32,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POO_ORE_DEEPSLATE);
                         entries.add(ModBlocks.POO_BLOCK);
                         entries.add(ModBlocks.PETRIFIED_POO_BLOCK);
+                        entries.add(ModBlocks.POO_STAIRS);
+                        entries.add(ModBlocks.POO_SLAB);
+                        entries.add(ModBlocks.POO_BUTTON);
+                        entries.add(ModBlocks.POO_PRESSURE_PLATE);
+                        entries.add(ModBlocks.POO_FENCE);
+                        entries.add(ModBlocks.POO_FENCE_GATE);
+                        entries.add(ModBlocks.POO_WALL);
+                        entries.add(ModBlocks.POO_DOOR);
+                        entries.add(ModBlocks.POO_TRAPDOOR);
+                        entries.add(ModBlocks.PP_STAIRS);
+                        entries.add(ModBlocks.PP_SLAB);
+                        entries.add(ModBlocks.PP_BUTTON);
+                        entries.add(ModBlocks.PP_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PP_FENCE);
+                        entries.add(ModBlocks.PP_FENCE_GATE);
+                        entries.add(ModBlocks.PP_WALL);
+                        entries.add(ModBlocks.PP_DOOR);
+                        entries.add(ModBlocks.PP_TRAPDOOR);
                     //Custom
                         entries.add(ModBlocks.SACRIFICIAL_ALTAR);
                     }).build());
